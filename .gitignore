@@ -1,14 +1,43 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+**/arrayexample/node_modules
+**/arraymapexample/node_modules
+**/basicexample/node_modules
+**/calculatorexample/node_modules
+**/componentexample/node_modules
+**/componentexample2/node_modules
+**/ifelseexample/node_modules
+**/importexportexample/node_modules
+**/propsexample/node_modules
+**/terneryexample/node_modules
 /.pnp
 .pnp.js
 
 # testing
+**/arrayexample/coverage
+**/arraymapexample/coverage
+**/basicexample/coverage
+**/calculatorexample/coverage
+**/componentexample/coverage
+**/componentexample2/coverage
+**/ifelseexample/coverage
+**/importexportexample/coverage
+**/propsexample/coverage
+**/terneryexample/coverage
 /coverage
 
 # production
+**/arrayexample/build
+**/arraymapexample/build
+**/basicexample/build
+**/calculatorexample/build
+**/componentexample/build
+**/componentexample2/build
+**/ifelseexample/build
+**/importexportexample/build
+**/propsexample/build
+**/terneryexample/build
 /build
 
 # misc
