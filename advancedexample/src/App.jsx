@@ -1,9 +1,10 @@
 import React from 'react';
-import OnClick from './OnClick';
+import CurrentTime from './CurrentTime';
 function App(){
     return(
         <React.Fragment>
-            <OnClick />
+            { /*<OnClick />*/}
+            <CurrentTime />
         </React.Fragment>
     )
 }

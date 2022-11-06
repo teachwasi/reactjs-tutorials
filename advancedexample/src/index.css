@@ -35,7 +35,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
 }
-.section .onclickBox{
+.section .onclickBox,.section .eventSection{
   color:chartreuse;
   text-align: center;
   text-transform: capitalize;
@@ -45,7 +45,7 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-.section .onclickBox button{
+.section .onclickBox button,.section .eventSection button{
   padding: 12px 25px;
     background: #d627eb;
     border: 1px solid #d627eb;
