@@ -1,12 +1,13 @@
 import React from 'react';
-import Events from './Events/Events';
+import FirstForm from './Forms/FirstForm';
 function App(){
     return(
         <React.Fragment>
             { /*<OnClick />
             <CurrentTime />
-            <DigitalClock />*/}
-            <Events />
+            <DigitalClock />
+            <Events />*/}
+            <FirstForm />
         </React.Fragment>
     )
 }
