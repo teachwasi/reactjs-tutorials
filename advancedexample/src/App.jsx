@@ -1,11 +1,12 @@
 import React from 'react';
-import DigitalClock from './DigitalClocks/DigitalClock';
+import Events from './Events/Events';
 function App(){
     return(
         <React.Fragment>
             { /*<OnClick />
-            <CurrentTime />*/}
-            <DigitalClock />
+            <CurrentTime />
+            <DigitalClock />*/}
+            <Events />
         </React.Fragment>
     )
 }
